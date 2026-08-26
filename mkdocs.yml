@@ -1,7 +1,7 @@
 site_name: SZATech
 site_description: Precision CNC machining, prototype-friendly production, and small-batch manufacturing support from SZATech.
 site_author: SZATech
-site_url: http://127.0.0.1:8000/
+site_url: https://nizheyi.github.io/szatech_website/
 
 use_directory_urls: true
 
