@@ -1,0 +1,36 @@
+site_name: SZATech
+site_description: Precision CNC machining, prototype-friendly production, and small-batch manufacturing support from SZATech.
+site_author: SZATech
+site_url: http://127.0.0.1:8000/
+
+use_directory_urls: true
+
+theme:
+  name: material
+  language: en
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.png
+  features:
+    - navigation.top
+    - content.tooltips
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+
+plugins: []
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/site.js
+
+extra:
+  generator: false
+
+copyright: Copyright © SZATech
