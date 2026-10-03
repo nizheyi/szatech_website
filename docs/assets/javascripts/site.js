@@ -1,5 +1,5 @@
 function copySzaEmail(button) {
-  const email = 'sdasstev@gmail.com';
+  const email = 'steven@szatech.com';
   if (navigator.clipboard && window.isSecureContext) {
     navigator.clipboard.writeText(email).then(() => showCopied(button));
   } else {
@@ -62,7 +62,7 @@ function openSzaInquiry(event, lang) {
     ? '请将图纸作为附件添加到此邮件后发送。'
     : 'Please attach your drawing(s) to this email before sending.');
 
-  window.location.href = `mailto:sdasstev@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines.join('\n'))}`;
+  window.location.href = `mailto:steven@szatech.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines.join('\n'))}`;
   return false;
 }
 

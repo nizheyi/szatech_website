@@ -2,7 +2,7 @@
 
 <div class="sza-topnav">
   <div class="sza-container">
-    <a href="#about">公司简介</a><a href="#capabilities">加工能力</a><a href="#materials">材料与表面处理</a><a href="#industries">应用行业</a><a href="#quality">质量与检测</a><div class="sza-spacer"></div><a class="sza-lang" href="../" aria-label="Switch to English">English</a><a class="sza-rfq" href="#contact">立即询价</a>
+    <a href="#about">公司简介</a><a href="#capabilities">加工能力</a><a href="#materials">材料与表面处理</a><a href="#industries">应用行业</a><a href="#quality">质量与检测</a><a class="sza-case-link" href="#case-studies">项目案例</a><div class="sza-spacer"></div><a class="sza-lang" href="../" aria-label="Switch to English">English</a><a class="sza-rfq" href="#contact">立即询价</a>
   </div>
 </div>
 
@@ -29,7 +29,14 @@
 
 <section id="quality" class="sza-section"><div class="sza-container sza-quality"><img src="../assets/images/inspection-room.jpg" alt="SZATech 检测室"><div class="sza-copy"><div class="sza-kicker">测量与检测</div><h3>检测不是最后一步，而是加工过程的一部分。</h3><p>SZATech 通过尺寸与外观检测手段，包括厂内三坐标和投影仪检测，来支持精密要求并提升客户信心。</p><div class="sza-quality-list"><div class="sza-quality-row"><span>三坐标</span><span>尺寸验证</span></div><div class="sza-quality-row"><span>投影仪</span><span>轮廓与特征检测</span></div><div class="sza-quality-row"><span>精度能力</span><span>首页重点展示 ±0.01mm</span></div><div class="sza-quality-row"><span>订单模式</span><span>无起订量，适合开发项目</span></div></div></div></div></section>
 
-<section id="contact" class="sza-section sza-contact"><div class="sza-container sza-contact-grid"><div><div class="sza-kicker" style="color:#aebfff">联系 / 询价</div><h2>把图纸发给我们。<br>我们快速报价。</h2><p>为了更快获得报价，建议填写零件名称、材料、预计数量，并在有图纸时一并提供。点击按钮后会打开你的邮件软件，并自动填好询价内容，随后你只需添加图纸附件即可发送。</p><div class="sza-contact-promise"><span>✔ 无起订量</span><span>✔ ±0.01mm</span><span>✔ 三坐标 + 投影仪</span></div></div><div class="sza-contact-card"><div class="sza-contact-item"><small>邮箱</small><a href="mailto:sdasstev@gmail.com">sdasstev@gmail.com</a></div><div class="sza-contact-item"><small>公司</small><strong>SZATech</strong></div>
+<section id="case-studies" class="sza-section sza-soft" aria-labelledby="case-studies-title">
+  <div class="sza-container">
+    <h2 id="case-studies-title">项目案例</h2>
+    <p class="sza-lead">项目案例将在此陆续补充。如果您有原型、科研零件或特殊定制零件需求，欢迎<a href="#contact">与我们沟通项目要求</a>。</p>
+  </div>
+</section>
+
+<section id="contact" class="sza-section sza-contact"><div class="sza-container sza-contact-grid"><div><div class="sza-kicker" style="color:#aebfff">联系 / 询价</div><h2>把图纸发给我们。<br>我们快速报价。</h2><p>为了更快获得报价，建议填写零件名称、材料、预计数量，并在有图纸时一并提供。点击按钮后会打开你的邮件软件，并自动填好询价内容，随后你只需添加图纸附件即可发送。</p><div class="sza-contact-promise"><span>✔ 无起订量</span><span>✔ ±0.01mm</span><span>✔ 三坐标 + 投影仪</span></div></div><div class="sza-contact-card"><div class="sza-contact-item"><small>邮箱</small><a href="mailto:steven@szatech.com">steven@szatech.com</a></div><div class="sza-contact-item"><small>公司</small><strong>SZATech</strong></div>
       <div class="sza-contact-item"><small>地址</small><strong>Wuxi New Wu District, Zhujiang Road 49-2, Industrial Park, Building A</strong></div><div class="sza-contact-item"><small>服务</small><strong>精密 CNC 加工 · 打样与小批量支持</strong></div><form class="sza-form" onsubmit="return openSzaInquiry(event, 'zh')"><div class="sza-field"><label>姓名</label><input name="name" required></div><div class="sza-field"><label>公司</label><input name="company"></div><div class="sza-field"><label>产品 / 零件</label><input name="product" required></div><div class="sza-field"><label>材料</label><input name="material"></div><div class="sza-field"><label>预计数量</label><input name="quantity"></div><div class="sza-field"><label>图纸情况</label><select name="drawing"><option value="已有图纸">已有图纸</option><option value="暂时没有图纸">暂时没有图纸</option></select></div><div class="sza-field sza-full"><label>需求说明</label><textarea name="message" placeholder="公差、表面处理、目标交期、其他特殊要求……"></textarea></div><p class="sza-form-note">这是静态网站，不会存储表单内容。点击按钮后将打开你的邮件程序。</p><div class="sza-form-actions"><button type="submit" class="sza-btn sza-blue-button">生成询价邮件</button><button type="button" class="sza-btn sza-outline" data-copied="邮箱已复制" onclick="copySzaEmail(this)">复制邮箱地址</button></div></form></div></div></section>
 
 <div class="sza-footerbar"><div class="sza-container"><img src="../assets/images/logo.png" alt="SZATech"><p>SZATech<br>精密 CNC 加工 · 快速报价 · 无起订量<br>Wuxi New Wu District, Zhujiang Road 49-2, Industrial Park, Building A</p></div></div>

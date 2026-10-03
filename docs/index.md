@@ -7,6 +7,7 @@
     <a href="#materials">Materials</a>
     <a href="#industries">Industries</a>
     <a href="#quality">Quality</a>
+    <a class="sza-case-link" href="#case-studies">Case Studies</a>
     <div class="sza-spacer"></div>
     <a class="sza-lang" href="zh/" aria-label="切换到中文">中文</a>
     <a class="sza-rfq" href="#contact">Request a quote</a>
@@ -17,15 +18,15 @@
   <img class="sza-hero-bg" src="assets/images/hero.jpg" alt="Precision CNC machining at SZATech">
   <div class="sza-hero-inner">
     <div class="sza-kicker sza-hero-kicker">SZATech · Precision CNC Machining</div>
-    <h2>Big-factory quality.<br>Small-shop agility.</h2>
+    <h2>Precision Parts for<br>Prototypes &amp; Research</h2>
     <div class="sza-hero-banner">
-      <p>10 Years Precision CNC – Serving 7 Industries</p>
-      <p>Automotive · Medical · Automation · Energy · Home Appliances · R&amp;D Institutes</p>
-      <p><strong>10 Machines</strong> | In-house CMM+Projector | <strong>±0.01mm</strong> | <span class="sza-highlight">No MOQ</span></p>
-      <p class="sza-hero-final">Send drawing, quote today.</p>
+      <p>Custom CNC machining for prototypes, research projects and low-volume production.</p>
+      <p>Unusual parts welcome. Share your drawings and requirements for a practical review.</p>
+      <p><strong>10 Machines</strong> | In-house CMM + Projector | <span class="sza-highlight">No MOQ</span></p>
+      <p class="sza-hero-final">Tell us what you need to make.</p>
     </div>
     <div class="sza-hero-tags">
-      <span>Automotive</span><span>Medical</span><span>Automation</span><span>Energy</span><span>Home Appliances</span><span>R&amp;D Institutes</span>
+      <span>Prototypes</span><span>Research Parts</span><span>Low-volume Production</span><span>Unusual Custom Parts</span>
     </div>
     <div class="sza-actions">
       <a class="sza-btn sza-primary" href="#contact">Request a quote</a>
@@ -158,11 +159,18 @@
   </div>
 </section>
 
+<section id="case-studies" class="sza-section sza-soft" aria-labelledby="case-studies-title">
+  <div class="sza-container">
+    <h2 id="case-studies-title">Case Studies</h2>
+    <p class="sza-lead">Project stories will be added here. Have a prototype, research component or unusual custom part to discuss? <a href="#contact">Tell us about your project.</a></p>
+  </div>
+</section>
+
 <section id="contact" class="sza-section sza-contact">
   <div class="sza-container sza-contact-grid">
     <div><div class="sza-kicker" style="color:#aebfff">Contact / RFQ</div><h2>Send your drawing.<br>We’ll quote fast.</h2><p>For faster quotation, include the part name, material, estimated quantity and your drawing if available. The form opens your email app with the inquiry details pre-filled, so you can attach the drawing and send it directly.</p><div class="sza-contact-promise"><span>✔ No MOQ</span><span>✔ ±0.01mm</span><span>✔ CMM + Projector</span></div></div>
     <div class="sza-contact-card">
-      <div class="sza-contact-item"><small>Email</small><a href="mailto:sdasstev@gmail.com">sdasstev@gmail.com</a></div>
+      <div class="sza-contact-item"><small>Email</small><a href="mailto:steven@szatech.com">steven@szatech.com</a></div>
       <div class="sza-contact-item"><small>Company</small><strong>SZATech</strong></div>
       <div class="sza-contact-item"><small>Address</small><strong>Wuxi New Wu District, Zhujiang Road 49-2, Industrial Park, Building A</strong></div>
       <div class="sza-contact-item"><small>Service</small><strong>Precision CNC machining · Prototype &amp; small-batch support</strong></div>
