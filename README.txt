@@ -18,5 +18,5 @@ Main files:
 - docs/assets/stylesheets/extra.css: site styling
 - docs/assets/javascripts/site.js: inquiry email and copy-email behavior
 
-Contact email: sdasstev@gmail.com
+Contact email: steven@szatech.com
 Address: Wuxi New Wu District, Zhujiang Road 49-2, Industrial Park, Building A
