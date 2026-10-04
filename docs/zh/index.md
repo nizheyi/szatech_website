@@ -2,7 +2,7 @@
 
 <div class="sza-topnav">
   <div class="sza-container">
-    <a href="#about">公司简介</a><a href="#capabilities">加工能力</a><a href="#materials">材料与表面处理</a><a href="#industries">应用行业</a><a href="#quality">质量与检测</a><a class="sza-case-link" href="#case-studies">项目案例</a><div class="sza-spacer"></div><a class="sza-lang" href="../" aria-label="Switch to English">English</a><a class="sza-rfq" href="mailto:steven@szatech.com">邮件联系</a>
+    <a href="#about">公司简介</a><a href="#capabilities">加工能力</a><a href="#materials">材料与表面处理</a><a href="#industries">应用行业</a><a href="#quality">质量与检测</a><a class="sza-case-link" href="#case-studies">项目案例</a><div class="sza-spacer"></div><a class="sza-lang" href="../" aria-label="Switch to English">English</a><a class="sza-rfq" href="mailto:steven@szatech.com">发送图纸</a>
   </div>
 </div>
 
@@ -17,7 +17,7 @@
       <p>厂内三坐标 + 投影仪检测 · 数量灵活</p>
     </div>
     <div class="sza-hero-tags"><span>原型开发</span><span>研发零件</span><span>小批量生产</span><span>重复订单</span><span>定制制造</span></div>
-    <div class="sza-actions"><a class="sza-btn sza-primary" href="mailto:steven@szatech.com">发送图纸 / 邮件联系</a><a class="sza-btn sza-ghost" href="#inquiry">填写询价</a></div>
+    <div class="sza-actions"><a class="sza-btn sza-primary" href="mailto:steven@szatech.com">发送图纸</a><a class="sza-btn sza-ghost" href="#inquiry">填写询价</a></div>
   </div>
 </section>
 
@@ -27,9 +27,9 @@
   <div class="sza-container sza-split">
     <img src="../assets/images/rd-team.jpg" alt="SZATech 工程师介绍精密零件">
     <div class="sza-copy"><div class="sza-kicker">关于 SZATech</div>
-      <h3>从单件开发到稳定重复生产。</h3>
+      <h3>从样件开发，到稳定生产。</h3>
       <p>SZATech 以务实的工程沟通、灵活数量和及时报价支持定制精密零件。可以从开发件或小批量开始，随着项目成熟，持续推进试产与重复生产。</p>
-      <p>我们欢迎自动化、科研设备和工业项目中的复杂结构与非标需求。小批量是合作的起点，也为后续持续生产提供支持。</p>
+      <p>我们欢迎自动化、科研设备和工业项目中的复杂结构与非标需求。根据项目需要，我们既支持小批量加工，也支持后续持续生产。</p>
       <div class="sza-chip-row"><span class="sza-chip">工程沟通</span><span class="sza-chip">小批量生产</span><span class="sza-chip">重复订单</span></div>
     </div>
   </div>
@@ -48,8 +48,12 @@
   <div class="sza-container">
     <h2 id="case-studies-title">项目案例</h2>
     <div class="sza-case-grid">
-      <article class="sza-case-card"><div class="sza-kicker">科研实验装置 · 美国</div><h3>神经科学研究中的非标零件</h3><p>为美国神经科学科研团队的非标实验装置提供定制原型零件。这是我们承接特殊定制需求的一个案例；我们的业务也涵盖自动化与生产项目。</p><a href="mailto:steven@szatech.com">沟通您的定制零件需求 →</a></article>
+      <article class="sza-case-card"><h3>产线耗材降本与稳定供货</h3><p>在性能不变的前提下降本超过 50%，目前年需求超过 1 万件。</p></article>
+      <article class="sza-case-card"><h3>非标科研实验装置</h3><p>将不断变化的需求落地为 5 套完整实验装置，并带来后续数十种定制零件复购。</p></article>
+      <article class="sza-case-card"><h3>反应罐与超声振动单元</h3><p>开发 316 不锈钢反应罐及超声工艺单元，形成持续复购并累计生产数百套。</p></article>
+      <article class="sza-case-card"><h3>CT 检测流程集成</h3><p>通过重复定位、夹具集成和设备信号接口，提高换样效率并减少人工操作。</p></article>
     </div>
+    <div class="sza-case-cta"><p>如果您有类似项目，欢迎发送图纸或需求与我们沟通。</p><a class="sza-btn sza-blue-button" href="mailto:steven@szatech.com">发送图纸</a></div>
   </div>
 </section>
 
@@ -73,7 +77,7 @@
 
 <section id="contact" class="sza-section sza-contact">
   <div class="sza-container sza-contact-grid">
-    <div><div class="sza-kicker" style="color:#aebfff">联系 / 询价</div><h2>发送图纸，<br>一起评估您的项目。</h2><p>通过邮件发送图纸，或告诉我们您需要制作什么。欢迎开发阶段的项目及重复生产需求。</p><div class="sza-actions"><a class="sza-btn sza-primary" href="mailto:steven@szatech.com">发送图纸 / 邮件联系</a><a class="sza-btn sza-ghost" href="#inquiry">填写询价</a></div><div class="sza-contact-promise"><span>✔ 数量灵活</span><span>✔ 精密检测</span><span>✔ 高效工程沟通</span></div></div>
+    <div><div class="sza-kicker" style="color:#aebfff">联系 / 询价</div><h2>发送图纸，<br>一起评估您的项目。</h2><p>通过邮件发送图纸，或告诉我们您需要制作什么。欢迎开发阶段的项目及重复生产需求。</p><div class="sza-actions"><a class="sza-btn sza-primary" href="mailto:steven@szatech.com">发送图纸</a><a class="sza-btn sza-ghost" href="#inquiry">填写询价</a></div><div class="sza-contact-promise"><span>✔ 数量灵活</span><span>✔ 精密检测</span><span>✔ 高效工程沟通</span></div></div>
     <div class="sza-contact-card">
       <div class="sza-contact-item"><small>邮箱</small><a href="mailto:steven@szatech.com">steven@szatech.com</a></div>
       <div class="sza-contact-item"><small>公司</small><strong>SZATech</strong></div>

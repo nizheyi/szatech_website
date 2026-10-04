@@ -10,7 +10,7 @@
     <a class="sza-case-link" href="#case-studies">Case Studies</a>
     <div class="sza-spacer"></div>
     <a class="sza-lang" href="zh/" aria-label="切换到中文">中文</a>
-    <a class="sza-rfq" href="mailto:steven@szatech.com">Email Us</a>
+    <a class="sza-rfq" href="mailto:steven@szatech.com">Email Your Drawing</a>
   </div>
 </div>
 
@@ -25,7 +25,7 @@
       <p>In-house CMM + Projector Inspection · Flexible quantities</p>
     </div>
     <div class="sza-hero-tags"><span>Prototypes</span><span>R&amp;D Parts</span><span>Low-Volume Production</span><span>Repeat Orders</span><span>Custom Manufacturing</span></div>
-    <div class="sza-actions"><a class="sza-btn sza-primary" href="mailto:steven@szatech.com">Send Drawing / Email Us</a><a class="sza-btn sza-ghost" href="#inquiry">Start an Inquiry</a></div>
+    <div class="sza-actions"><a class="sza-btn sza-primary" href="mailto:steven@szatech.com">Email Your Drawing</a><a class="sza-btn sza-ghost" href="#inquiry">Start an Inquiry</a></div>
   </div>
 </section>
 
@@ -40,9 +40,9 @@
   <div class="sza-container sza-split">
     <img src="assets/images/rd-team.jpg" alt="SZATech engineer introducing precision components">
     <div class="sza-copy"><div class="sza-kicker">About SZATech</div>
-      <h3>From one-off development parts to repeat production.</h3>
+      <h3>From prototype builds to repeat production.</h3>
       <p>SZATech supports custom precision parts with practical engineering communication, flexible quantities and responsive quotation. Start with a development part or a small batch, then continue into production runs as your project matures.</p>
-      <p>We welcome complex geometries and non-standard requirements for automation, research equipment and industrial projects. Low-volume work is a starting point, with support for ongoing production needs.</p>
+      <p>We welcome complex geometries and non-standard requirements for automation, research equipment and industrial projects. We support both small batches and ongoing production, according to your project needs.</p>
       <div class="sza-chip-row"><span class="sza-chip">Engineering Support</span><span class="sza-chip">Low-Volume Production</span><span class="sza-chip">Repeat Orders</span></div>
     </div>
   </div>
@@ -61,8 +61,12 @@
   <div class="sza-container">
     <h2 id="case-studies-title">Case Studies</h2>
     <div class="sza-case-grid">
-      <article class="sza-case-card"><div class="sza-kicker">Research apparatus · United States</div><h3>Non-standard parts for neuroscience research</h3><p>Custom prototype parts for a non-standard experimental apparatus for a U.S. neuroscience research team. One example of the unusual custom parts we support alongside automation and production projects.</p><a href="mailto:steven@szatech.com">Discuss your custom part →</a></article>
+      <article class="sza-case-card"><h3>Cost Reduction &amp; Repeat Supply</h3><p>Cut recurring consumable cost by more than 50% while maintaining performance; annual demand now exceeds 10,000 pieces.</p></article>
+      <article class="sza-case-card"><h3>Custom Research Apparatus</h3><p>Turned evolving requirements into five complete experimental systems, followed by dozens of additional custom-part orders.</p></article>
+      <article class="sza-case-card"><h3>Reaction Vessels &amp; Ultrasonic Units</h3><p>Developed 316 stainless-steel reaction vessels and ultrasonic process units, with repeat orders and several hundred units produced.</p></article>
+      <article class="sza-case-card"><h3>CT Workflow Integration</h3><p>Improved CT sample changeover through repeatable positioning, fixture integration and equipment signal interfaces.</p></article>
     </div>
+    <div class="sza-case-cta"><p>Have a similar project? Email your drawing or requirements.</p><a class="sza-btn sza-blue-button" href="mailto:steven@szatech.com">Email Your Drawing</a></div>
   </div>
 </section>
 
@@ -146,7 +150,7 @@
 
 <section id="contact" class="sza-section sza-contact">
   <div class="sza-container sza-contact-grid">
-    <div><div class="sza-kicker" style="color:#aebfff">Contact / RFQ</div><h2>Send your drawing.<br>Let’s review your project.</h2><p>Email your drawing or tell us what you need to make. Early-stage projects and repeat production inquiries are welcome.</p><div class="sza-actions"><a class="sza-btn sza-primary" href="mailto:steven@szatech.com">Send Drawing / Email Us</a><a class="sza-btn sza-ghost" href="#inquiry">Start an Inquiry</a></div><div class="sza-contact-promise"><span>✔ Flexible quantities</span><span>✔ Precision inspection</span><span>✔ Responsive engineering review</span></div></div>
+    <div><div class="sza-kicker" style="color:#aebfff">Contact / RFQ</div><h2>Send your drawing.<br>Let’s review your project.</h2><p>Email your drawing or tell us what you need to make. Early-stage projects and repeat production inquiries are welcome.</p><div class="sza-actions"><a class="sza-btn sza-primary" href="mailto:steven@szatech.com">Email Your Drawing</a><a class="sza-btn sza-ghost" href="#inquiry">Start an Inquiry</a></div><div class="sza-contact-promise"><span>✔ Flexible quantities</span><span>✔ Precision inspection</span><span>✔ Responsive engineering review</span></div></div>
     <div class="sza-contact-card">
       <div class="sza-contact-item"><small>Email</small><a href="mailto:steven@szatech.com">steven@szatech.com</a></div>
       <div class="sza-contact-item"><small>Company</small><strong>SZATech</strong></div>

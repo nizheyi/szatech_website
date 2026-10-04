@@ -204,19 +204,21 @@ body { background: #fff; color: var(--sza-ink); }
 .sza-contact-promise span { display:inline-flex; align-items:center; padding:.48rem .76rem; border-radius:999px; background:rgba(255,255,255,.12); border:1px solid rgba(255,255,255,.16); color:#fff; font-size:.78rem; font-weight:800; }
 
 
-/* Compact positioning, partner processes and expandable case cards. */
+/* Compact positioning, partner processes and concise case cards. */
 .sza-stat strong { font-size:clamp(1.35rem,2.5vw,2.4rem); line-height:1.15; }
 .sza-partner-processes { margin-top:1.5rem; padding:1rem 1.25rem; border-left:3px solid var(--sza-blue); background:#fff; }
 .sza-partner-processes h3 { margin:0 0 .4rem; font-size:1.1rem; }
 .sza-partner-processes p { margin:0; color:var(--sza-muted); font-size:.95rem; }
 .sza-industry-list { display:flex; flex-wrap:wrap; gap:.75rem; }
 .sza-industry-list div { padding:1rem 1.25rem; background:var(--sza-soft); border:1px solid var(--sza-line); font-weight:750; }
-.sza-case-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr)); gap:1rem; margin-top:1.5rem; }
-.sza-case-card { padding:1.5rem; border:1px solid var(--sza-line); background:var(--sza-soft); }
-.sza-case-card h3 { margin:.5rem 0; font-size:1.4rem; }
-.sza-case-card p { max-width:900px; color:var(--sza-muted); }
-.sza-case-card .sza-kicker { margin-bottom:.5rem; }
-.sza-case-card a { font-weight:750; }
+#case-studies { padding:3rem 0; }
+.sza-case-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; margin-top:1.5rem; }
+.sza-case-card { min-width:0; padding:1.25rem; border:1px solid var(--sza-line); background:var(--sza-soft); }
+.sza-case-card h3 { margin:0 0 .6rem; font-size:1rem; font-weight:700; line-height:1.35; }
+.sza-case-card p { margin:0; color:var(--sza-muted); font-size:.85rem; line-height:1.55; }
+.sza-case-cta { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:.8rem 1.5rem; margin-top:1.25rem; }
+.sza-case-cta p { margin:0; color:var(--sza-muted); font-size:.95rem; }
+.sza-case-cta .sza-btn { flex-shrink:0; }
 .sza-contact-card .sza-inquiry-help { color:var(--sza-muted); font-size:.9rem; }
 .sza-contact-card, .sza-field, .sza-quality-row span { min-width:0; }
 .sza-contact-item { overflow-wrap:anywhere; }
@@ -241,6 +243,8 @@ body { background: #fff; color: var(--sza-ink); }
 }
 
 @media (max-width: 640px) {
+  .sza-case-grid { grid-template-columns:1fr; }
+  .sza-case-card { padding:1rem; }
   .sza-container, .sza-hero-inner { width:min(100% - 28px, 1180px); }
   .sza-topnav .sza-container { min-height:58px; height:auto; flex-wrap:wrap; gap:.6rem; padding:.5rem 0; }
   .sza-topnav .sza-rfq { padding:.55rem .7rem; font-size:.76rem; }
