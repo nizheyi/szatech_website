@@ -512,3 +512,26 @@ html[lang="zh"] .hero-v13 h1{font-size:clamp(42px,3.85vw,55px);line-height:1.2}
 @media(max-width:900px){.fabrication-secondary img{height:350px}.repeat-supply-proof{grid-template-columns:minmax(0,1fr) 260px}.repeat-supply-photo img{width:73.0769%;height:136.84%;top:-18.42%;left:13.4615%}}
 @media(max-width:720px){.fabrication-secondary img{height:250px;aspect-ratio:auto;object-position:50% 63%}.repeat-supply-proof{grid-template-columns:1fr;gap:0}.repeat-supply-copy{padding:23px}.repeat-supply-photo{height:260px}.repeat-supply-photo img{width:260px;height:calc(100vw - 36px);left:calc(50% - 130px);top:calc(148px - 50vw)}.project-facts{grid-template-columns:1fr}.p05-images{grid-template-columns:1fr}.p05-images .support-card img{height:auto;aspect-ratio:16/9;object-fit:contain}}
 @media(max-width:480px){.fabrication-secondary img{height:auto;aspect-ratio:4/5;object-position:50% 63%}}
+
+/* Case contact and inquiry fallback: keep the existing page structure. */
+.case-facts>div:last-child{grid-column:1/-1}
+.case-cta{margin:24px 0 0}
+.case-contact{max-width:780px;margin:26px 0 0;padding:22px 24px;border:1px solid var(--line);background:#f4f8f7;scroll-margin-top:96px}
+.case-contact h2{font-size:24px;line-height:1.2;margin:8px 0 12px}
+.case-contact p{font-size:14px;line-height:1.6;color:var(--muted);margin:0 0 14px}
+.case-contact .case-email-text{font-size:18px;font-weight:800;color:var(--deep);user-select:text;overflow-wrap:anywhere}
+.case-contact .actions{margin-top:12px}
+.case-contact #case-contact-status{margin:12px 0 0;min-height:1em}
+.case-contact button{cursor:pointer}
+.case-contact button:disabled{cursor:default;opacity:.6}
+.contact-email-options{margin:20px 0 25px;padding:18px 20px;border:1px solid #35606b;background:#193b47;scroll-margin-top:96px}
+.contact .contact-email-options p{font-size:13px;line-height:1.6;margin:0 0 12px}
+.contact .contact-email-options .contact-email-text{font-size:18px;font-weight:800;color:#fff;user-select:text;overflow-wrap:anywhere}
+.contact-email-options .actions{margin-top:12px}
+.contact-email-options button.ghost-light{background:transparent;cursor:pointer}
+.contact-email-options button:disabled{cursor:default;opacity:.6}
+.contact .contact-email-options #contact-copy-status{margin:10px 0 0;min-height:1em}
+.inquiry-manual{margin-top:16px}
+.inquiry-manual label{display:block;font-size:13px;font-weight:700;line-height:1.5;margin-bottom:8px}
+.inquiry-manual textarea{display:block;width:100%;max-width:100%;min-height:220px;padding:12px;border:1px solid #bccbd1;color:var(--ink);background:#fff;font:inherit;font-size:13px;line-height:1.5;resize:vertical}
+@media(max-width:720px){.case-facts>div:last-child{grid-column:auto}.case-contact{padding:18px}.case-contact h2{font-size:22px}.case-contact .actions .button{max-width:100%}}
