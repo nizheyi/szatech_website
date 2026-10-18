@@ -7,7 +7,7 @@
   const zh = document.documentElement.lang.toLowerCase().startsWith('zh');
   const key = 'szatech-analytics-consent-v1';
   const permittedPages = new Set(['/', '/index.html', '/zh.html', '/zh/', '/zh/index.html',
-    '/case-supporting.html', '/case-supporting-zh.html']);
+    '/case-supporting.html', '/case-supporting-zh.html', '/privacy.html', '/privacy-zh.html']);
   if (!permittedPages.has(location.pathname)) return;
   const cases = new Set(['p03', 'p04', 'p05', 'p07', 'p08', 'p09',
     'installation', 'manufacturing', 'repeat']);
@@ -49,7 +49,7 @@
     const cleanPage = location.origin + location.pathname;
     const config = { send_page_view: false, page_location: cleanPage,
       page_referrer: safeReferrer(), allow_google_signals: false,
-      allow_ad_personalization_signals: false };
+      allow_ad_personalization_signals: false, cookie_expires: 60 * 60 * 24 * 90 };
     // Recognize only company-controlled campaign tags; never forward arbitrary URL queries.
     const query = new URLSearchParams(location.search);
     if (query.get('utm_source') === 'outreach' && query.get('utm_medium') === 'email') {
