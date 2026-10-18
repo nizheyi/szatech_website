@@ -95,6 +95,7 @@
           'Thank you — your inquiry has been submitted successfully. SZATech will reply to the email you provided. To send drawings, email steven@szatech.com from the same address.',
           '您的询盘已成功提交。SZATech 将通过您填写的邮箱回复。如需补充图纸，请使用同一邮箱发送至 steven@szatech.com。'
         ), 'success');
+        document.dispatchEvent?.(new Event('szatech:inquiry-success'));
         status.focus();
       } else {
         const errors = Array.isArray(data?.errors) ? data.errors : [];
